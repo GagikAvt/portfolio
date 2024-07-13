@@ -385,6 +385,69 @@ img {
     border-radius: 5px;
 }
 
+.downloadButton {
+    width: 200px;
+    margin: 150px auto;
+}
+
+.dwBtnA {
+    display: block;
+    height: 50px;
+    width: 200px;
+    color: white;
+    font: 17px/50px sans-serif,Helvetica;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    background: #355C7D; 
+}
+
+.dwBtnP {
+    background: #6C5B7B;
+    display: block;
+    height: 40px;
+    width: 180px;
+    margin: -50px 0 0 10px;
+    text-align: center;
+    font: 14px/45px sans-serif,Helvetica;
+    color: #eee;
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: margin 0.7s cubic-bezier(0.6, -0.28, 0.74, 0.05);
+    -moz-transition: margin 0.7s cubic-bezier(0.6, -0.28, 0.74, 0.05);
+    -o-transition: margin 0.7s cubic-bezier(0.6, -0.28, 0.74, 0.05);
+    -ms-transition: margin 0.7s cubic-bezier(0.6, -0.28, 0.74, 0.05);
+    transition: margin 0.7s cubic-bezier(0.6, -0.28, 0.74, 0.05);
+}
+
+
+.dwBtnP {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 13px;
+    -webkit-box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+    -moz-box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+}
+
+.dwBtnA{
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 13px;
+    -webkit-box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+    -moz-box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+}
+
+.downloadButton:hover .bottom { 
+  margin: -10px 0 0 10px 
+}
+
+.downloadButton:hover .top {
+    margin: -80px 0 0 10px;
+    line-height: 35px;
+}
+
 @keyframes fadeInUp {
     0% {
         opacity: 0;
