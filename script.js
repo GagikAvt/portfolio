@@ -12,7 +12,6 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 
-    // Создаем наблюдатель
     const observer = new IntersectionObserver(handleIntersection, {
         threshold: 0.1 
     });
