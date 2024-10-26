@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./img/AG.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="portfolio">
+        <div class="frame21">
+          <div class="welcome">WELCOME</div>
+          <div class="info">Gagik Avtandilyan / Sales Manager</div>
+        </div>
+        <div class="frame3">
+          <div class="frame2">
+            <div class="aboutMe" >About Me</div>
+            <div class="aboutText">
+                Hi and welcome to my portfolio! I'm <span class="special">Gagik</span> and I am an enthusiastic <a href="#salesCert" style="color: #fff; text-decoration: none;"><span class="special">Sales Manager</span></a> with a careful observance for detail and obsession for innovative thinking. I'm new to the industry, and open for new experience.
+                <p>(Studied in <a style="color: #fff; text-decoration: none;" href="https://gortsup.am" target="_blank"><span title = "If you click You can go to GortsUp Academy's web site" class="special">GortsUp Academy</span></a>)</p>
+            </div>
+          </div>
+        </div>
+        <div class="frame8">
+          <div class="frame6">
+            <div class="frame9">
+              <div class="softSkills">Soft Skills</div>
+            </div>
+            <div class="frame4">
+              <div class="text">Problem-solving <span>★★★★★</span></div>
+              <div class="text">Empathy <span>★★★★★</span></div>
+              <div class="text">Teamwork <span>★★★★★</span></div>
+              <div class="text">Adaptability <span>★★★★★</span></div>
+              <div class="text">Creativity <span>★★★★★</span></div>
+              <div class="text">Critical thinking <span>★★★★★</span></div>
+            </div>
+          </div>
+          <div class="frame7">
+            <div class="frame9">
+              <div class="hardSkills">Hard Skills</div>
+            </div>
+            <div class="frame5">
+                <div class="text">SPIN <span>★★★★☆</span></div>
+                <div class="text">Cross-Sell <span>★★★★★</span></div>
+                <div class="text">Up-Sell <span>★★★★★</span></div>
+                <div class="text">Win-Win <span>★★★★★</span></div>
+                <div class="text">OSINT <span>★★★★☆</span></div>
+                <div class="text">CRM <span>★★★☆☆</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="frame20">
+          <div class="education">Education</div>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-date">2023 - 2027</div>
+              <div class="timeline-content">
+                <img src="./img/evrasia.jpeg" alt="Eurasia Logo" class="logo">
+                <div>
+                  <h3>Eurasia International University </h3>
+                  <p style="color: rgba(239, 238, 238, 0.833); ">Programmer</p>
+                </div>
+              </div>
+            </div>
+          
+            <div class="timeline-item">
+              <div class="timeline-date">Apr. 2024 - Jun. 2024</div>
+              <div class="timeline-content">
+                <img src="./img/GortsUP.svg" alt="GORTSUP Logo" class="logo" style="background-color: #fff;">
+                <div>
+                  <h3>GORTSUP academy</h3>
+                  <p style="color: rgba(239, 238, 238, 0.833); ">Sales Manager</p>
+                </div>
+              </div>
+            </div>
+          
+            <div class="timeline-item">
+              <div class="timeline-date">2017 - 2021</div>
+              <div class="timeline-content">
+                <img src="./img/politechnic.jpg" alt="Polytechnic Logo" class="logo">
+                <div>
+                  <h3>National Polytechnic University of Armenia(College)</h3>
+                  <p style="color: rgba(239, 238, 238, 0.833); ">Technician Programmer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+        <!-- Download btn -->
+        <div class="downloadButton">
+          <a class="dwBtnA" href="./CV/CV.pdf" download="resume_Gagik">Download CV</a>
+          <p class="top dwBtnP">Filename : CV.pdf</p>
+          <p class="bottom dwBtnP">Size: 329Kb</p>
+        </div>
+        <!-- end -->
+        <div class="certificat">Certificates and Diplomas</div>
+        <div class="frame26">
+          <div class="frame22">
+            <div id="salesCert" class="certificateText">Studied to "Sales Manager" in GORTSUP Academy</div>
+            <img class="rectangleNew" src="./img/Certificate_1.jpg" />
+          </div>
+          <div class="frame22" >
+            <div class="certificateText">Studied to "Technician Programmer" in NPUA</div>
+            <img class="rectangleNew" src="./img/Certificate_3.jpg" />
+          </div>
+          <div class="frame22">
+            <div class="certificateText">Educated to "Psychologist" in The International Association of Lawyers and Psychologists</div>
+            <img class="rectangleNew" src="./img/Certificate_4.jpg" />
+          </div>
+        </div>
+        
+      </div>
+
+      <div style="width: 90%; margin: auto;">
+        <!-- toggle button -->
+        <div class="btn">
+          <a id="toggleCertificatesBtn">
+            Other Certificates 
+            <span class="arrow" id="arrow">▼</span>
+          </a>
+        </div>
+        <!-- end -->
+
+        <div id="certificatesContainer" class="certificates-grid"></div>
+
+        <!-- modal window -->
+        <div id="modal" class="modal">
+          <span id="closeModal" class="close">&times;</span>
+          <img class="modal-content" id="modalImg">
+          <div id="caption" class="caption"></div>
+        </div>
+        <!-- end -->
+      </div>
+      
+      <div class="connect">
+        <h1>Let’s work  together</h1>
+        <p style="font-size: 10px;">SCAN OR CLICK</p>
+        
+        <div class="container" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center;">
+            <div class="card">
+                <a class="link" href="https://gagikavt.github.io/my_social_medias/" target="_blank">
+                    <img src="./img/qr-400.png" alt="Avatar" width="50%" >
+                    <div class="container">
+                    <h4><b>My Social Medias</b></h4>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <p style="margin: 3px 20px; padding: 10px 0;">&copy; 2024 Gagik Avtandilyan</p>
+      </div>
+    <script src="script.js"></script>
+    </body>
+</html>
